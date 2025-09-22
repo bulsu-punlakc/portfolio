@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keith Christopher Punla - Professional Portfolio</title>
+        <meta name="description" content="Professional portfolio showcasing skills, projects, and experience. Available for internships, jobs, and freelance work.">
+        <meta name="author" content="Your Name">
+        
+        <!-- Poppins Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#hero">Keith</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav-cta-btn" onclick="scrollToSection('contact')">Get In Touch</button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-content fade-in">
+                    <h1 class="hero-title">Keith Christopher Punla</h1>
+                    <p class="hero-subtitle">Blending code and creativity — building efficient software, intuitive designs, and impactful digital solutions</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary" onclick="downloadCV()">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Hello! I'm Keith</h3>
+                        <p style="text-indent: 60px; text-align: justify;">
+                        I am Keith Christopher Punla, an aspiring IT professional currently pursuing a Bachelor of Science in Information Technology. I am passionate about software development, web technologies, and user-centered design, with a strong drive to blend technical expertise and creativity in every project I take on. My journey in IT has allowed me to explore different aspects of programming, design, and problem-solving, shaping me into a versatile and adaptable developer.
+                        </p>
+
+                        <p style="text-indent: 60px; text-align: justify;">
+                        My goal is to continuously grow as a developer by learning emerging technologies and best practices, while contributing to impactful solutions that make a difference. I aim to pursue opportunities where I can apply my skills in software development, web systems, and design to deliver value, innovate, and collaborate effectively with teams and organizations. Beyond technology, I am driven by curiosity, a commitment to continuous learning, and a passion for creating meaningful digital experiences.
+                        </p>
+
+
+                        <div class="about-tags">
+                            <span class="tag">Philippines</span>
+                            <span class="tag">Developer</span>
+                            <span class="tag">Available for Internship</span>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Here are the key skills and technologies I work with. Each skill represents my proficiency level and experience in that particular area.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Technical</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PHP & MySQL</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript (ReactJS, Node.js & jQuery)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5 & CSS3</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bootstrap / Tailwind CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Unity (C#)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>XML & JSON</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UI / UX</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Figma / Canva</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Responsive Web Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Wireframing & Prototyping</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Graphic Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>3D Modelling</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Problem Solving & Debugging</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Team Collaboration</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Adaptability</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Time Management</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Communication Skills</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Critical Thinking</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools-section">
+                    <h3>Tools & Technologies</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">C++</div>
+                        <div class="tool-item">C#</div>
+                        <div class="tool-item">C</div>
+                        <div class="tool-item">Java</div>
+                        <div class="tool-item">XML</div>
+                        <div class="tool-item">Python</div>
+                        <div class="tool-item">HTML</div>
+                        <div class="tool-item">CSS</div>
+                        <div class="tool-item">Bootstrap</div>
+                        <div class="tool-item">Tailwind</div>
+                        <div class="tool-item">JS</div>
+                        <div class="tool-item">PHP</div>
+                        <div class="tool-item">React</div>
+                        <div class="tool-item">MySQL</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Here are some of my recent projects that showcase my skills and experience. Each project represents a unique challenge and solution.</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="--count: 1">
+                            <div class="track">
+                                <img src="assets/Gogo Minimart/1.png" alt="" style="--index: 0">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Go-go Minimart - POS</h3>
+                            <p>Developed using Java Swing as the final project in Object-Oriented Programming. Features included product management, sales tracking, and receipt generation tailored for small retail businesses.</p>
+                            <div class="project-tools">
+                                <span class="tool-tag" style="--hover-clr: #ff0000">Java</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">Java Swing</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="--count: 1">
+                            <div class="track">
+                                <img src="assets/Umami Japanese House/1.png" alt="" style="--index: 0">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Umami Japanese House - POS</h3>
+                            <p>Built with Java Swing as a final project in Object-Oriented Programming. Implemented order processing, inventory management, and cashier modules designed for restaurant operations.</p>
+                            <div class="project-tools">
+                                <span class="tool-tag">Java</span>
+                                <span class="tool-tag">Java Swing</span>
+                                <span class="tool-tag">MSSQL</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="--count: 1">
+                            <div class="track">
+                                <img src="assets/TSPOT Bulacan/1.png" alt="" style="--index: 0">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>TSPOT Bulacan</h3>
+                            <p>A tourism website for Bulacan showcasing its heritage sites, featuring detailed information and an interactive 3D street view to help users virtually explore cultural landmarks.</p>
+                            <div class="project-tools">
+                                <span class="tool-tag" style="--hover-clr: #ff0000">HTML</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">CSS</span>
+                                <span class="tool-tag" style="--hover-clr: #ff0000">JavaScript</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">PHP</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">MySQL</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="--count: 1">
+                            <div class="track">
+                                <img src="assets/Remer Fitness Gym/1.png" alt="" style="--index: 0">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Remer Fitness Gym</h3>
+                            <p>A gym management system developed with PHP, MySQL, HTML, CSS, and JavaScript. It includes membership management, class scheduling, staff assignments, and an integrated shop with cart and transaction tracking.</p>
+                            <div class="project-tools">
+                                <span class="tool-tag" style="--hover-clr: #ff0000">HTML</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">CSS</span>
+                                <span class="tool-tag" style="--hover-clr: #ff0000">JavaScript</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">PHP</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">MySQL</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="--count: 5;">
+                            <div class="track">
+                                <img src="assets/Testify/1.png" alt="" style="--index: 0">
+                                <img src="assets/Testify/2.png" alt="" style="--index: 1">
+                                <img src="assets/Testify/3.png" alt="" style="--index: 2">
+                                <img src="assets/Testify/4.png" alt="" style="--index: 3">
+                                <img src="assets/Testify/5.png" alt="" style="--index: 4">
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Testify - LAN-Based Examination System</h3>
+                            <p>A LAN-based examination and monitoring system built with Java Swing. It enables teachers to create and manage exams while monitoring student activity in real time, with features such as anti-cheating alerts, progress tracking, and local data storage using XML.</p>
+                            <div class="project-tools">
+                                <span class="tool-tag" style="--hover-clr: #ff0000">Java</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">Java Swing</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">XML</span>
+                                <span class="tool-tag" style="--hover-clr: #0000ff">Python</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                                <a href="#" class="project-link primary">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Demo
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Activities</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Through competitions and projects, I strengthened my technical skills, creativity, and collaboration while applying knowledge to real-world challenges.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge professional">Senior High School</div>
+                            <span class="timeline-date">2020 - 2022</span>
+                            <h3>Consistent Academic Achiever</h3>
+                            <h4>La Verdad Christian School - Apalit</h4>
+                            <p>Recognized as a consistent academic achiever, demonstrating dedication and strong academic performance.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">February 2024</span>
+                            <h3>UP Algolympics</h3>
+                            <h4>UP ACM</h4>
+                            <p>Competed in programming and algorithm challenges, sharpening problem-solving skills under time pressure.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">April 2024</span>
+                            <h3>National IT Skills Competition - Programming</h3>
+                            <h4>Integrated Society of Information Technology Enthusiasts</h4>
+                            <p>Represented in a national-level IT contest, applying technical expertise to real-world scenarios.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">March 2025</span>
+                            <h3>Youth Financial Inclusion (YFI) Initiative</h3>
+                            <h4>Bangko Sentral ng Pilipinas</h4>
+                            <p>Achieved 6th place in a national hackathon promoting financial literacy and innovation.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">June 2025</span>
+                            <h3>National AI Prompt Design Challenge</h3>
+                            <h4>Straits Interactive</h4>
+                            <p>Competed in a national-level prompt design challenge showcasing innovation in AI.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">Pending</span>
+                            <h3>Philippine Startup Challenge</h3>
+                            <h4>DICT</h4>
+                            <p>Placeholder entry for upcoming national startup competition.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">Pending</span>
+                            <h3>CodeChum National Programming Challenge</h3>
+                            <h4>CodeChum</h4>
+                            <p>Placeholder entry for upcoming programming contest.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge competition">Competition</div>
+                            <span class="timeline-date">October 2025</span>
+                            <h3>Hackathon Programming</h3>
+                            <h4>Regional Assembly on Information Technology Education</h4>
+                            <p>Placeholder entry for upcoming regional hackathon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="education-grid">
+                        <div class="education-card">
+                            <h4>Your Degree</h4>
+                            <h5>Bulacan State University</h5>
+                            <p class="education-date">2026 | GPA: 1.22</p>
+                            <p>Relevant coursework, honors, or achievements during your studies.</p>
+                        </div>
+                        <div class="education-card">
+                            <h4>Certifications</h4>
+                            <div class="certification-item">
+                                <h5>Salesforce Supported Virtual Internship Program 2025</h5>
+                                <p>SmartBridge - 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">I'm open to exploring new opportunities, contributing to meaningful projects, and exchanging ideas about technology and innovation. Let's connect!</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <div class="contact-form-card">
+                            <h3>Send Me a Message</h3>
+                            <form id="contactForm" class="contact-form" action="php/contact.php" method="POST">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary full-width" style="display: flex; justify-content: center; align-items: center;">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p>Email</p>
+                                <a href="/cdn-cgi/l/email-protection#9fe6f0eaedb1faf2fef6f3dffae7fef2eff3fab1fcf0f2"><span class="__cf_email__" data-cfemail="d9a0b6acabf7bcb4b8b0b599bca1b8b4a9b5bcf7bab6b4">keithchristopherpunla@gmail.com</span></a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p>Phone</p>
+                                <a href="tel:+15551234567">(+63) 945 204 6477</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p>Location</p>
+                                <span>Pampanga, Philippines</span>
+                            </div>
+                        </div>
+                        <div class="social-section">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work-together">
+                            <h4>Let's Work Together</h4>
+                            <p>I'm currently available for internships, part-time work, and freelance projects. Whether you have a specific project in mind or just want to explore possibilities, I'd love to hear from you!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <p>&copy; 2025 Keith Christopher Punla. All rights reserved.</p>
+                    </div>
+                    <div class="footer-right">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            const projectCards = document.querySelectorAll('.project-card');
+
+            projectCards.forEach(card => {
+                const track = card.querySelector('.project-image .track');
+                if (!track) return;
+
+                const images = Array.from(track.querySelectorAll('img'));
+                const count = images.length;
+
+                // Skip animation if there's only 1 image
+                if (count <= 1) return;
+
+                const showcase = 2.5;
+                const slide = 0.5;
+                const totalDuration = (showcase + slide) * count;
+
+                // Generate dynamic keyframes (loop back to 1st image)
+                let keyframes = '@keyframes slideShow {';
+                for (let i = 0; i < count; i++) {
+                    const startPercent = ((showcase + slide) * i / totalDuration) * 100;
+                    const showcasePercent = (showcase / totalDuration) * 100;
+                    const slidePercent = (slide / totalDuration) * 100;
+
+                    keyframes += `${startPercent}% { transform: translateX(-${i * 100}%); }`;
+                    keyframes += `${startPercent + showcasePercent}% { transform: translateX(-${i * 100}%); }`;
+
+                    if (i < count - 1) {
+                        keyframes += `${startPercent + showcasePercent + slidePercent}% { transform: translateX(-${(i+1) * 100}%); }`;
+                    } else {
+                        keyframes += `${startPercent + showcasePercent + slidePercent}% { transform: translateX(0); }`;
+                    }
+                }
+                keyframes += '}';
+
+                const styleSheet = document.createElement("style");
+                styleSheet.type = "text/css";
+                styleSheet.innerText = keyframes;
+                document.head.appendChild(styleSheet);
+
+                let animationStart = 0;
+                let animationFrame;
+
+                const startAnimation = () => {
+                    track.style.animation = `slideShow ${totalDuration}s linear infinite`;
+                    track.style.animationPlayState = 'running';
+                    track.style.animationDelay = `-${animationStart}s`;
+                };
+
+                card.addEventListener('mouseenter', () => {
+                    startAnimation();
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    const computedStyle = getComputedStyle(track);
+                    const matrix = new DOMMatrixReadOnly(computedStyle.transform);
+                    const currentX = Math.abs(matrix.m41);
+                    const imageWidth = track.clientWidth;
+                    let currentIndex = Math.floor((currentX / imageWidth) + 0.5);
+
+                    track.style.animationPlayState = 'paused';
+
+                    // Smoothly finish the current slide
+                    const nextIndex = (currentIndex + 1 >= count) ? 0 : currentIndex + 1;
+                    const remainingDistance = nextIndex * imageWidth - currentX;
+                    const slideFraction = remainingDistance / imageWidth;
+                    const remainingTime = slideFraction * slide * 1000;
+
+                    let start = null;
+                    const startPos = currentX;
+
+                    const step = timestamp => {
+                        if (!start) start = timestamp;
+                        const elapsed = timestamp - start;
+                        const progress = Math.min(elapsed / remainingTime, 1);
+
+                        track.style.transform = `translateX(-${startPos + progress * remainingDistance}px)`;
+
+                        if (progress < 1) {
+                            animationFrame = requestAnimationFrame(step);
+                        } else {
+                            // Freeze final image
+                            track.style.transform = `translateX(-${nextIndex * 100}%)`;
+                            images.forEach((img, i) => {
+                                img.style.zIndex = i === nextIndex ? '1' : '0';
+                            });
+                            cancelAnimationFrame(animationFrame);
+                            animationStart = nextIndex * (showcase + slide);
+                        }
+                    };
+
+                    animationFrame = requestAnimationFrame(step);
+                });
+            });
+        </script>
+    </body>
+</html>
